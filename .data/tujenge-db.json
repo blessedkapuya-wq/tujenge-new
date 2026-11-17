@@ -1,0 +1,187 @@
+{
+  "users": [
+    {
+      "id": "user-founder-2",
+      "role": "member",
+      "displayName": "Neema Mwanga",
+      "phone": "+255754100002",
+      "email": null,
+      "memberId": "founder-2",
+      "memberNumber": "TJ-002",
+      "secretHash": "UoiTP1v2sryJ_zmnyagSNg.iK_bT7QAIvXch6cEo1QwqKwA6S-Kt24G5OKfffXuxN0",
+      "createdAt": "2026-01-11T09:15:00.000Z"
+    },
+    {
+      "id": "user-founder-3",
+      "role": "member",
+      "displayName": "Amina Juma",
+      "phone": "+255713100003",
+      "email": null,
+      "memberId": "founder-3",
+      "memberNumber": "TJ-003",
+      "secretHash": "UoiTP1v2sryJ_zmnyagSNg.iK_bT7QAIvXch6cEo1QwqKwA6S-Kt24G5OKfffXuxN0",
+      "createdAt": "2026-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "user-founder-4",
+      "role": "member",
+      "displayName": "Grace Mushi",
+      "phone": "+255688100004",
+      "email": null,
+      "memberId": "founder-4",
+      "memberNumber": "TJ-004",
+      "secretHash": "UoiTP1v2sryJ_zmnyagSNg.iK_bT7QAIvXch6cEo1QwqKwA6S-Kt24G5OKfffXuxN0",
+      "createdAt": "2026-01-25T10:30:00.000Z"
+    }
+  ],
+  "members": [
+    {
+      "id": "founder-1",
+      "memberNumber": "TJ-001",
+      "fullName": "Sarah Kapuya",
+      "phone": "+255754100001",
+      "mtaaHouseNumber": "Kinondoni Studio · House 14",
+      "nationalIdMasked": "****************8812",
+      "role": "admin",
+      "status": "active",
+      "hisaShares": 42,
+      "hisaTotalTsh": 420000,
+      "jamiiTotalTsh": 84000,
+      "commitmentSharesPerWeek": 2,
+      "joinedAt": "2026-01-11T09:00:00.000Z"
+    },
+    {
+      "id": "founder-2",
+      "memberNumber": "TJ-002",
+      "fullName": "Neema Mwanga",
+      "phone": "+255754100002",
+      "mtaaHouseNumber": "Mikocheni B · Plot 48",
+      "nationalIdMasked": "****************4409",
+      "role": "member",
+      "status": "active",
+      "hisaShares": 36,
+      "hisaTotalTsh": 360000,
+      "jamiiTotalTsh": 72000,
+      "commitmentSharesPerWeek": 1,
+      "joinedAt": "2026-01-11T09:15:00.000Z"
+    },
+    {
+      "id": "founder-3",
+      "memberNumber": "TJ-003",
+      "fullName": "Amina Juma",
+      "phone": "+255713100003",
+      "mtaaHouseNumber": "Sinza Mori · House 22B",
+      "nationalIdMasked": "****************1934",
+      "role": "member",
+      "status": "active",
+      "hisaShares": 28,
+      "hisaTotalTsh": 280000,
+      "jamiiTotalTsh": 56000,
+      "commitmentSharesPerWeek": 1,
+      "joinedAt": "2026-01-18T10:00:00.000Z"
+    },
+    {
+      "id": "founder-4",
+      "memberNumber": "TJ-004",
+      "fullName": "Grace Mushi",
+      "phone": "+255688100004",
+      "mtaaHouseNumber": "Mbezi Beach · Lane 7",
+      "nationalIdMasked": "****************5520",
+      "role": "member",
+      "status": "active",
+      "hisaShares": 30,
+      "hisaTotalTsh": 300000,
+      "jamiiTotalTsh": 60000,
+      "commitmentSharesPerWeek": 1,
+      "joinedAt": "2026-01-25T10:30:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "seed-pay-1",
+      "memberId": "founder-2",
+      "memberNumber": "TJ-002",
+      "memberName": "Neema Mwanga",
+      "provider": "M-Pesa",
+      "reference": "RL91M4K10A",
+      "amountTsh": 12000,
+      "hisaAllocatedTsh": 10000,
+      "jamiiAllocatedTsh": 2000,
+      "sharesAdded": 1,
+      "rawSms": "RL91M4K10A Confirmed. Tsh12,000.00 sent to TUJENGE HUB 5548920.",
+      "status": "confirmed",
+      "createdAt": "2026-11-10T10:15:00.000Z"
+    },
+    {
+      "id": "seed-pay-2",
+      "memberId": "founder-3",
+      "memberNumber": "TJ-003",
+      "memberName": "Amina Juma",
+      "provider": "Mixx by Yas",
+      "reference": "TY88192045",
+      "amountTsh": 22000,
+      "hisaAllocatedTsh": 20000,
+      "jamiiAllocatedTsh": 2000,
+      "sharesAdded": 2,
+      "rawSms": "Umefanikiwa kutuma Tsh 22,000 kwenda TUJENGE HUB. Kumbukumbu: TY88192045.",
+      "status": "confirmed",
+      "createdAt": "2026-11-10T11:05:00.000Z"
+    }
+  ],
+  "loans": [
+    {
+      "id": "loan-founder-3",
+      "memberId": "founder-3",
+      "memberNumber": "TJ-003",
+      "memberName": "Amina Juma",
+      "amountTsh": 450000,
+      "repaidTsh": 150000,
+      "purpose": "Wholesale fabric stock replenishment",
+      "guarantorName": "Grace Mushi",
+      "termMonths": 3,
+      "interestRatePct": 5,
+      "status": "active",
+      "requestedAt": "2026-10-04T08:30:00.000Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "seed-mtg-q4-2026",
+      "title": "Q4 2026 Quarterly VICOBA Audit & Share Review",
+      "quarterLabel": "Q4 2026",
+      "meetingDate": "2026-12-13T14:00:00.000Z",
+      "location": "Kinondoni Hub & WhatsApp Video",
+      "agenda": "Review every member Hisa & Jamii share report, confirm Sunday collections, audit active loans, and plan Q1 2027 goals.",
+      "status": "scheduled"
+    },
+    {
+      "id": "seed-mtg-q1-2027",
+      "title": "Q1 2027 Quarterly VICOBA General Meeting",
+      "quarterLabel": "Q1 2027",
+      "meetingDate": "2027-03-14T14:00:00.000Z",
+      "location": "Kinondoni Hub & WhatsApp Video",
+      "agenda": "Quarterly share dividend projection, new member admissions, and emergency Jamii fund review.",
+      "status": "scheduled"
+    }
+  ],
+  "documents": [
+    {
+      "id": "seed-doc-official-policy",
+      "title": "Tujenge Hub VICOBA Constitution & Share Rules",
+      "category": "Constitution",
+      "summary": "Weekly share value (TSH 10,000 Hisa + TSH 2,000 Jamii), automatic sequential member numbering, and Sunday 18:00 collection cutoff.",
+      "externalUrl": "",
+      "visibility": "all_members",
+      "updatedAt": "2026-01-11T09:00:00.000Z"
+    },
+    {
+      "id": "seed-doc-loan-policy",
+      "title": "Member Loan & Guarantor Policy",
+      "category": "Lending Policy",
+      "summary": "Active members may borrow up to 3x accumulated Hisa savings at 5% flat service fee over 3 months with one active guarantor.",
+      "externalUrl": "",
+      "visibility": "all_members",
+      "updatedAt": "2026-02-02T12:00:00.000Z"
+    }
+  ]
+}

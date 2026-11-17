@@ -1,0 +1,8 @@
+{
+  "name": "Tujenge Hub",
+  "description": "Women's Digital VICOBA Platform — Member onboarding, TSH mobile money share ledger, loans, and Cloudflare-native authentication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
